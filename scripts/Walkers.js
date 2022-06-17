@@ -36,6 +36,7 @@ export const Walkers = () => {
 }
 
 /*
+//combined 2 functions with Ross
 Finding cities per walker:
 First, define a function that will get all objects in the walkerCities array that are for the walker that was clicked on.
 Create a for of loop-- for walkerCity of walkerCities, if walkerCity.walkerId equals personObject.id
@@ -50,6 +51,8 @@ It should return an array of all matching objects. --me: why would they be match
 let walkerCities = getWalkerCities() 
 let cities = getCities()
 // The function need the walker information, so define a parameter--me: parameter is a personObject
+
+
 export const filterWalkerCitiesByWalker = (personObject) => {
     // Define an empty array to store all of the assignment objects
     let assignedCities = ""
